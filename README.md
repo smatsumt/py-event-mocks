@@ -18,6 +18,7 @@ Supported Event Sources are:
 - [x] CloudWatch Log
 - [x] Cognito Pool
 - [x] IoT
+- [x] AWS Batch
 
 The library simply uses default event source mock templates and merge it with any overwrite you provide. [Check out the JSON template files](src/py_event_mocks/events/aws) to learn more about the data structure of each event source.
 
